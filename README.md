@@ -31,7 +31,7 @@ We also need a custom intent to actually be able to respond to our skill's name 
 
 Samples can't contain punctuation, hence the bloody awful grammar in there.
 
-### Lambda function (lambda/)
+### Lambda function (`lambda/`)
 
 The `lambda/` directory is, essentially, our back-end. Think of it as the server in the client-server model. Inside, you'll find three files - `index.js`, `util.js` and `package.json`. For our purposes, the majority of the time, we'll be in `index.js`. The `package.json` file contains metadata about our Lambda function (since it's written in NodeJS, and we therefore should stick to its conventions). The `util.js` file creates some connections to other AWS services, such as S3, using [Signature Version 4](https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html).
 
