@@ -1,0 +1,16 @@
+{
+  "name": "locate-charlie",
+  "version": "1.0.0",
+  "description": "Ask Alexa to find Charlie",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Where we're going, we don't need no tests\" && exit 1"
+  },
+  "author": "Andrew Langhorn <andrew@ajlanghorn.com>",
+  "license": "ISC",
+  "dependencies": {
+    "ask-sdk-core": "^2.0.0",
+    "ask-sdk-model": "^1.0.0",
+    "i18next": "^15.0.5"
+  }
+}
